@@ -1,6 +1,6 @@
 {
     "minimum-stability": "alpha",
-    "name": "promet/drupal7-framework",
+    "name": "VielSoft/drupal7-framework",
     "type": "project",
     "repositories": [
         {
