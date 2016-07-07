@@ -1,12 +1,12 @@
-# Promet Drupal 7 Framework
+# VielSoft Drupal 7 Framework
 
 This is an example of a starting point for developing the "Promet Way".
 
 You can most easily start your Drupal project with this baseline by using
 [Composer](getcomposer.org):
 
-```bash
-composer create-project promet/drupal7-framework your_project_name
+```
+composer create-project vielsoft/drupal7-framework YOUR_PROJECT_NAME
 ```
 
 Running this command will download the latest release of this project to a new
@@ -197,3 +197,7 @@ Or run this command that will do behat testing:
 
 * Change `build/scripts/default_set_theme` to a manifest
 * Make the README pithier, factor out discussions into an article or blog
+
+# CREDITS
+
+This stack was created by folks at PrometSource. Credits must go to them.
