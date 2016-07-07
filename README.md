@@ -198,6 +198,30 @@ Or run this command that will do behat testing:
 * Change `build/scripts/default_set_theme` to a manifest
 * Make the README pithier, factor out discussions into an article or blog
 
+# TROUBLESHOOTING
+
+Here are some known issues during installation.
+
+## Issue 1
+```
+Your requirements could not be resolved to an installable set of packages.
+
+ Problem 1
+   - Installation request for fabpot/goutte v1.0.7 -> satisfiable by fabpot/goutte[v1.0.7].
+   - fabpot/goutte v1.0.7 requires ext-curl * -> the requested PHP extension curl is missing from your system.
+ Problem 2
+   - Installation request for instaclick/php-webdriver 1.0.17 -> satisfiable by instaclick/php-webdriver[1.0.17].
+   - instaclick/php-webdriver 1.0.17 requires ext-curl * -> the requested PHP extension curl is missing from your system.
+ Problem 3
+   - fabpot/goutte v1.0.7 requires ext-curl * -> the requested PHP extension curl is missing from your system.
+```
+
+The above issue means that you don't have curl installed.
+
+## Solution to Issue 1
+
+In Ubuntu you can fix it by installing `php5-curl`. Simply run `sudo apt-get install php5-curl`.
+
 # CREDITS
 
 This stack was created by folks at PrometSource. Credits must go to them.
